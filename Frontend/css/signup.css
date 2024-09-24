@@ -1,12 +1,61 @@
 body {
     background-color: black;
-    background-image: url(DALL·E\ 2024-09-24\ 00.58.46\ -\ A\ modern\ and\ sleek\ background\ image\ for\ an\ online\ auction\ platform.\ The\ design\ should\ feature\ subtle\ elements\ related\ to\ bidding\,\ auctions\,\ and\ techno.webp);
+    background-image: url(../pics/login/login-background.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.mainlogo{
+    margin-top: 15px;
+    width: 100px;
+}
+#logotext{
+    width: 200px;
+    margin-bottom: 25px;
+    margin-left: -20px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-left: 10px;
+    padding-right: 100px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -20px;
+    background-color: #0d1117;
+}
+#navbut{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+
+}
+.navbuttons{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    margin-top: 35px;
+    padding: 15px;
+    padding-top: 0px;
+    text-decoration-line: none;
+}
+.navbuttons:hover{
+    color: rgb(172, 172, 172);
 }
 .signup-container {
     background-color: white;
     padding: 2rem;
+    margin: auto;
+    margin-top: 70px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 350px;
