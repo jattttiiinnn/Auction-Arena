@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url(../pics/login/login-background.webp);
+    background-image: url(../../pics/login/login-background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
@@ -52,7 +52,7 @@ nav{
     color: rgb(172, 172, 172);
 }
 .signup-container {
-    background-color: white;
+    background-color: #0d1117;
     padding: 2rem;
     margin: auto;
     margin-top: 70px;
@@ -60,11 +60,12 @@ nav{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 350px;
     text-align: center;
+    color: white;
 }
 
 h2 {
     margin-bottom: 1.5rem;
-    color: #333;
+    /* color: #333; */
 }
 
 .input-group {
@@ -74,7 +75,7 @@ h2 {
 
 .input-group label {
     font-size: 0.9rem;
-    color: #555;
+    /* color: #555; */
 }
 
 .input-group input {
@@ -84,10 +85,11 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    outline: none;
 }
 
 button {
-    background-color: blue;
+    background-color: mediumorchid;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -97,8 +99,8 @@ button {
     font-size: 1rem;
 }
 
-button:hover {
-    background-color: #45a049;
+button:active {
+    background-color: rgb(225, 103, 255);
 }
 
 .login-link {
@@ -107,7 +109,7 @@ button:hover {
 }
 
 .login-link a {
-    color: blue;
+    color: mediumorchid;
     text-decoration: none;
 }
 
