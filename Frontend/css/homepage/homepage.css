@@ -4,7 +4,9 @@ body{
     line-height: 1.7;
     color: white;
 }
-
+a{
+    text-decoration: none;
+}
 .mainlogo{
     margin-top: 15px;
     width: 100px;
@@ -282,11 +284,20 @@ nav{
     background-color: #7C72FF;
     filter: blur(15px);
 }
+.auction-row a{
+    color: white;
+    text-decoration-line: none;
+}
+.auction-row a:visited{
+    color: white;
+    text-decoration-line: none;
+}
 .auction-card{
     background-color: #0d1117;
     border:1px solid #666;
     border-radius: 7px;
     transition: 0.5s;
+    color: white;
     
 }
 .auction-card:hover{
@@ -355,4 +366,19 @@ nav{
 }
 #trending{
     padding-right: 1100px;
+}
+#last-line{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 32px;
+}
+footer{
+    margin-top: 300px;
+    text-align: center;
+    background-color: #0d1117;
+    color: white;
+    border-top: 1px solid #666;
+    bottom: 0;
+    left: 0;
 }
