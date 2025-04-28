@@ -1,4 +1,4 @@
-Auction Arena
+Auction Aren
 Auction Arena is an online auction platform where users can participate in real-time bidding for various products. It is designed to handle a large user base with a seamless and interactive experience for both buyers and sellers.
 
 🛠 Features
