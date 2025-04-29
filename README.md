@@ -1,6 +1,8 @@
-Auction Arena is an online auction platform where users can participate in real-time bidding for various products. It is designed to handle a large user base with a seamless and interactive experience for both buyers and sellers.
+# 💸Auction Arena : The Ultimate Auction Platform
 
-🛠 Features
+### Auction Arena is an online auction platform where users can participate in real-time bidding for various products. It is designed to handle a large user base with a seamless and interactive experience for both buyers and sellers.
+
+##🛠 Features
 User Authentication: Secure login and signup for users.
 
 Live Bidding System: Real-time bidding with client-side input pop-ups.
@@ -15,7 +17,7 @@ Contact Page: Reach out to the Auction Arena team directly.
 
 Responsive Design: Mobile and desktop-friendly user interface.
 
-🧩 Tech Stack
+##🧩 Tech Stack
 Frontend: HTML, CSS, JavaScript, Tailwind CSS
 
 Backend: Node.js, Express.js
@@ -24,7 +26,7 @@ Database: MongoDB (using MongoDB Compass for management)
 
 Server: Localhost (development) and planned hosting for production
 
-🚀 How to Run Locally
+##🚀 How to Run Locally
 Clone the Repository
 
 bash
